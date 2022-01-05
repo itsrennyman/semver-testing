@@ -8,6 +8,9 @@ module.exports = {
   subtract: function (a, b) {
     return a - b;
   },
+  gold: function (a, b) {
+    return "This is a beta function";
+  },
 };
 
 // aiao
