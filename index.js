@@ -8,7 +8,7 @@ module.exports = {
   subtract: function (a, b) {
     return a - b;
   },
-  gold2: function (a, b) {
+  gold3: function (a, b) {
     return "This is a beta function";
   },
 };
