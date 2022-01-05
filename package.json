@@ -1,0 +1,27 @@
+{
+  "name": "semver-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsrennyman/semver-testing.git"
+  },
+  "author": "Renato <renato.pozzi.dev@gmail.com> (https://renatopozzi.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsrennyman/semver-testing/issues"
+  },
+  "homepage": "https://github.com/itsrennyman/semver-testing#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
