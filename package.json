@@ -27,7 +27,10 @@
     }
   },
   "release": {
-    "branches": ["main", "next", {"name": "beta", "prerelease": true}, {"name": "alpha", "prerelease": true}]
+    "branches": [
+      {"name": "main"},
+      {"name": "next", "channel": "next", "prerelease": "rc"}
+    ]
   },
   "dependencies": {
     "jest": "27.4.7"
