@@ -26,6 +26,9 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "release": {
+    "branches": ["main", "next", {"name": "beta", "prerelease": true}, {"name": "alpha", "prerelease": true}]
+  },
   "dependencies": {
     "jest": "27.4.7"
   }
