@@ -9,7 +9,7 @@ module.exports = {
     return a - b;
   },
   gold: function (a, b) {
-    return "This is a beta function";
+    return "This is a beta function and will be removed in the future";
   },
 };
 
