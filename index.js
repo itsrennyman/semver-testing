@@ -1,6 +1,6 @@
 module.exports = {
   sayHello: function (name) {
-    return "Hello " + name;
+    return "Hello! Nice to meet you " + name;
   },
   add: function (a, b) {
     return a + b;
